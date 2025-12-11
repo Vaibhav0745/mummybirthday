@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <title>Happy Birthday Mom Vaishali! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Confetti Container -->
+    <canvas id="confetti-canvas"></canvas>
+    
+    <!-- Music Control Button -->
+   
+    
+    <section class="opening-section">
+        <div class="decorative-heart"></div>
+        <div class="decorative-heart"></div>
+        <div class="decorative-heart"></div>
+        <div class="decorative-heart"></div>
+        
+        <h1 class="opening-title">Happy Birthday Mummy!</h1>
+        <p class="opening-subtitle">Celebrating the heart and strength of our family</p>
+        
+        <div class="date-display">
+            📅 December 12th
+        </div>
+        
+        <div class="opening-image">
+            <img src="images/mummy9.jpg" alt="Vaishali Mendake" loading="lazy">
+        </div>
+        
+        <p class="opening-message">
+            Today is all about celebrating you and the warmth, care, and strength you pour into our lives every single day.
+        </p>
+        <button class="cta-button" id="explore-btn">Explore Your Surprise 🎁</button>
+    </section>
+    
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Thank You Message Section -->
+        <section class="message-section" id="message-section">
+            <div class="section-content">
+                <h2 class="section-title">A Special Thank You 💌</h2>
+                <div class="message-card">
+                    <div class="message-content">
+                        <p class="message-text">
+                            Dear Mom,
+                        </p>
+                        <p class="message-text">
+                            Today isn't just your birthday… it's a reminder of how blessed we are to be your family.
+                            You're not just our mom — you're our home, our calm, and the person who has held us together every single time.
+                            
+                            Whenever life felt confusing… you guided us.
+                            Whenever we were hurting… you understood us.
+                            Whenever we needed strength… your love gave it to us.
+                            
+                            You have no idea how much your support means to all of us.
+                            Even in the toughest moments — even when we were struggling — you never left our side.
+                            You listened to us, handled our feelings, helped us, and kept us loved and safe.
+                        </p>
+                        <p class="message-text">
+                            I wanted to create something special to thank you for being the amazing person you are. 
+                            Your kindness, patience, and unwavering support mean the world to us. On your special day, 
+                            I hope this website brings a smile to your face and shows you how much you're loved 
+                            and appreciated.
+                        </p>
+                        <p class="message-text highlight-text">
+                            Thank you for always being there when we needed you most. You're not just our mom, 
+                            you're our biggest cheerleader, our first friend, and the person we can always count on.
+                        </p>
+                        <p class="message-signature">
+                            With all my love and gratitude,<br>
+                            <span class="signature-name">Your Family ❤️</span>
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <!-- Special Bond Section -->
+        <section class="bond-section" id="bond-section">
+            <div class="section-content">
+                <h2 class="section-title">Our Special Bond 💫</h2>
+                <div class="bond-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💝</div>
+                        <div class="timeline-content">
+                            <h3>Unmatched Love</h3>
+                            <p>Your love wraps around us like a warm hug, making every day feel safe and special.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🤝</div>
+                        <div class="timeline-content">
+                            <h3>Always There</h3>
+                            <p>In every challenge and every triumph, you’re the steady hand and kind voice that keeps us going.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💖</div>
+                        <div class="timeline-content">
+                            <h3>Home Is You</h3>
+                            <p>You make every place feel like home. Your care and warmth turn ordinary moments into memories.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🌟</div>
+                        <div class="timeline-content">
+                            <h3>Forever Grateful</h3>
+                            <p>We’re forever grateful for you, Mom. You make everything brighter just by being you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons Section -->
+        <section class="reasons-section" id="reasons-section">
+            <div class="section-content">
+                <h2 class="section-title">Why You're Amazing ✨</h2>
+                <div class="reasons-container">
+                    <button class="reason-reveal-btn" id="reason-btn">Click to Reveal Reasons! 🎁</button>
+                    <div class="reasons-grid" id="reasons-grid">
+                        <div class="reason-card hidden">
+                            <div class="reason-number">1</div>
+                            <h3>You're Always There</h3>
+                            <p>No matter what happens, you’re right there beside us, lifting us up with love.</p>
+                        </div>
+                        <div class="reason-card hidden">
+                            <div class="reason-number">2</div>
+                            <h3>Your Kind Heart</h3>
+                            <p>Your kindness and compassion inspire everyone around you. You make the world softer.</p>
+                        </div>
+                        <div class="reason-card hidden">
+                            <div class="reason-number">3</div>
+                            <h3>Our Safe Place</h3>
+                            <p>You’re the safe place we run to — the one who listens, understands, and never judges.</p>
+                        </div>
+                        <div class="reason-card hidden">
+                            <div class="reason-number">4</div>
+                            <h3>Your Support</h3>
+                            <p>You’ve been our support system, our confidant, and our best friend. We can’t imagine life without you.</p>
+                        </div>
+                        <div class="reason-card hidden">
+                            <div class="reason-number">5</div>
+                            <h3>You Make Us Better</h3>
+                            <p>Your presence makes us better people. Thank you for being you.</p>
+                        </div>
+                        <div class="reason-card hidden">
+                            <div class="reason-number">6</div>
+                            <h3>Unconditional Love</h3>
+                            <p>You show us what unconditional love truly means. We’re blessed beyond words.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section class="memories-section" id="memories-section">
+            <div class="section-content">
+                <h2 class="section-title">Celebrating You! 🎊</h2>
+                <div class="memories-grid">
+                    <div class="memory-card">
+                        <div class="memory-icon">🌟</div>
+                        <h3>Wonder Mom</h3>
+                        <p>You light up our lives with your strength and grace</p>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-icon">💝</div>
+                        <h3>Kind Heart</h3>
+                        <p>Your kindness touches everyone around you</p>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-icon">🤗</div>
+                        <h3>Always Supportive</h3>
+                        <p>You’re always there when we need you most</p>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-icon">🌈</div>
+                        <h3>Beautiful Soul</h3>
+                        <p>Inside and out, you’re absolutely beautiful</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Birthday Cake -->
+        <section class="cake-section" id="cake-section">
+            <div class="section-content">
+                <h2 class="section-title">Make a Wish! 🕯️</h2>
+                <div class="cake-container">
+                    <div class="sparkles">
+                        <span class="sparkle sparkle1">✨</span>
+                        <span class="sparkle sparkle2">✨</span>
+                        <span class="sparkle sparkle3">✨</span>
+                        <span class="sparkle sparkle4">✨</span>
+                        <span class="sparkle sparkle5">✨</span>
+                        <span class="sparkle sparkle6">✨</span>
+                    </div>
+                    <div class="cake-wrapper">
+                        <div class="cake">
+                            <div class="candle" id="candle">
+                                <div class="flame" id="flame"></div>
+                                <div class="smoke" id="smoke"></div>
+                            </div>
+                            <div class="frosting">
+                                <div class="cherry cherry1">🍒</div>
+                                <div class="cherry cherry2">🍒</div>
+                                <div class="cherry cherry3">🍒</div>
+                            </div>
+                            <div class="cake-body">
+                                <div class="cake-layer layer1">
+                                    <div class="decoration decoration1">⭐</div>
+                                    <div class="decoration decoration2">💖</div>
+                                </div>
+                                <div class="cake-layer layer2">
+                                    <div class="decoration decoration3">✨</div>
+                                    <div class="decoration decoration4">💝</div>
+                                </div>
+                                <div class="cake-layer layer3">
+                                    <div class="decoration decoration5">🌟</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wish-instructions">
+                        <p class="instruction-text">Close your eyes, make a wish, and blow out the candle! 🎂</p>
+                    </div>
+                    <button class="blow-button" id="blow-btn">Blow Out the Candle! 🎂</button>
+                    <p class="wish-message" id="wish-message"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="photo-gallery" id="gallery-section">
+            <div class="section-content">
+                <h2 class="section-title">📸 Beautiful Memories</h2>
+                <div class="gallery-container" id="galleryContainer"></div>
+            </div>
+        </section>
+
+        <!-- Final Message -->
+        <section class="final-section" id="final-section">
+            <div class="section-content">
+                <h2 class="section-title">Once Again...</h2>
+                <div class="final-message">
+                    <h1 class="big-birthday">🎉 HAPPY BIRTHDAY MUMMY! 🎉</h1>
+                    <p class="final-text">May your day be filled with peace, joy, and all the love you endlessly give to us!</p>
+                    <div class="celebration-icons">
+                        <span class="bounce">🎂</span>
+                        <span class="bounce">🎈</span>
+                        <span class="bounce">🎁</span>
+                        <span class="bounce">🎊</span>
+                        <span class="bounce">✨</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
